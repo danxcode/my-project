@@ -2,6 +2,26 @@
     #top-navigation ul li {
         margin: 0 10px;
     }
+
+    #closeBtn {
+        font-size: 20px;
+    }
+
+    #popup span {
+        font-size: 30px;
+    }
+
+    #popup p {
+        font-size: 12px;
+    }
+
+    #popup-email {
+        font-size: 12px;
+    }
+
+    #popup-button {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -49,6 +69,31 @@
 
     #parent h1 {
         font-size: 55px;
+    }
+
+    #closeBtn {
+        font-size: 15px;
+    }
+
+    #popup span {
+        font-size: 20px;
+    }
+
+    #popup p {
+        font-size: 12px;
+    }
+
+    #popup-form {
+        width: 50%;
+    }
+
+    #popup-email {
+        font-size: 10px;
+        padding: 10px 5px;
+    }
+
+    #popup-button {
+        font-size: 10px;
     }
 
     .service {
@@ -121,7 +166,7 @@
         font-size: 14px;
     }
 
-    #search-form a{
+    #search-form a {
         padding: 5px 10px;
         top: 37px;
     }

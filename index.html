@@ -48,6 +48,11 @@
                             <i class="fa-solid fa-bars"></i>
                         </button>
                     </li>
+                    <li>
+                        <button id="theme-toggle" type="button">
+                            <i class="fa-solid fa-moon" id="sun-moon"></i>
+                        </button>
+                    </li>
                 </ul>
 
             </nav>
@@ -125,6 +130,21 @@
                 </a>
             </li>
         </ul>
+    </div>
+
+</div>
+
+<div id="popup_wrapper">
+
+    <div id="popup">
+        <i class="fa-solid fa-xmark" id="closeBtn"></i>
+        <span>20% تخفیف </span>
+        <span>برای اولین خرید شما </span>
+        <p>ایمیل خود را وارد کنید. کد تخفیف ۲۰ درصدی‌تان را دریافت کنید. اولین کسی باشید که از همه اخبار و رویدادهای اَویتا باخبر می‌شود.</p>
+        <form action="#" id="popup-form">
+            <input type="email" placeholder="ایمیل خود را وارد کنید" id="popup-email">
+            <input type="button" value="دریافت تخفیف" id="popup-button">
+        </form>
     </div>
 
 </div>
@@ -248,7 +268,7 @@
                         </div>
                     </div>
 
-                    <img alt="" src="images/chat.png">
+                    <img alt="" src="images/chat.png" class="chat-icon">
 
                 </div>
                 <p>
@@ -275,7 +295,7 @@
                         </div>
                     </div>
 
-                    <img alt="" src="images/chat.png">
+                    <img alt="" src="images/chat.png" class="chat-icon">
 
                 </div>
                 <p>
@@ -687,16 +707,6 @@
     <span>طراحی شده توسط دانیال اسماعیلی با❤️</span>
 </section>
 
-<script>
-    let element = document.getElementById("menu")
-
-    const openMenu = () => {
-        element.classList.add("show")
-    }
-
-    const closeMenu = () => {
-        element.classList.remove("show")
-    }
-</script>
+<script src="script/script.js"></script>
 </body>
 </html>
