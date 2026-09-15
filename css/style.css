@@ -38,6 +38,7 @@
     --inputColor: #f1f1f1;
     --softColor: #f6f6f6;
     --footerColor: #343434;
+    --span: #dadada;
     transition: all 0.3s;
 }
 
@@ -62,6 +63,7 @@ body.dark-mode {
     --inputColor: #242424;
     --softColor: #292929;
     --footerColor: #0d0d0d;
+    --span: #292929;
 }
 
 main {
@@ -489,7 +491,7 @@ a#logo-wrapper img {
 }
 
 .icon-wrapper {
-    background-color: #f6f6f6;
+    background-color: var(--softColor);
     width: 100px;
     height: 120px;
     border-radius: 5px 40px 100px 40px;
@@ -683,7 +685,7 @@ a#logo-wrapper img {
 }
 
 .comment-choose span {
-    background-color: #d4d4d4;
+    background-color: var(--span);
     border-radius: 50%;
     padding: 12px;
     cursor: pointer;
@@ -1108,7 +1110,10 @@ footer {
     border-radius: 50%;
     margin-right: 15px;
     transition: all 0.3s;
+    width: 40px;
+    height: 40px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
