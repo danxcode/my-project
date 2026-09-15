@@ -619,7 +619,8 @@ a#logo-wrapper img {
 }
 
 .chat-icon{
-    border-radius: 20%;
+    font-size: 90px;
+    color: var(--mutedTextColor);
 }
 
 .top-comment-wrapper {
